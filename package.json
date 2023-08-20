@@ -1,0 +1,29 @@
+{
+  "name": "todo_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 3004",
+    "start": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asimji/Todo_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asimji/Todo_typescript/issues"
+  },
+  "homepage": "https://github.com/Asimji/Todo_typescript#readme",
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
